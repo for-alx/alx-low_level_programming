@@ -7,23 +7,16 @@
  */
 int main(void)
 {
-	int start = 0;
-
-	while (start < 10)
+	int i, y;
+	for (i = 0; i < 10; i++)
 	{
-		putchar(start + 48);
-		start++;
+		putchar (i + '0');
+	}
+	for (y = 'a'; y <= 'f'; y++)
+	{
+		putchar (y);
 	}
 
-
-	char startt = 'a';
-
-	while (startt <= 'f')
-	{
-		putchar(startt);
-		startt++;
-	}
-
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
