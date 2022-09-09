@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
- * Description: generate lowercase letters
+ * Description:  Generate lowercase and UPPERCASE letters
+ * and then in uppercase, followed by a new line.
  * Return: 0
  */
 int main(void)
@@ -10,6 +10,14 @@ int main(void)
 	char start = 'a';
 
 	while (start <= 'z')
+	{
+		putchar(start);
+		start++;
+	}
+
+	start = 'A';
+
+	while (start <= 'Z')
 	{
 		putchar(start);
 		start++;
