@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: generate a random number and print the number and check if it is zero + or -
+ * Description: Generate a random number and print the 
+ * number and check if it is zero + or -
  * Return: 0
  */
 
