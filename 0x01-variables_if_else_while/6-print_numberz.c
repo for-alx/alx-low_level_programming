@@ -11,8 +11,7 @@ int main(void)
 
 	while (start < 10)
 	{
-		putchar(start + 48);//48 is the decimal value ofnum 0
-		start++;
+		putchar(start + 48);
 	}
 
 	putchar('\n');
