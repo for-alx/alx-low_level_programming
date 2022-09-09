@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: prints all single digit numbers of base 10
+ * Description: prints all single digit numbers of base 16 in lowercase
  * starting from 0, followed by a new line.
  * Return: 0
  */
@@ -15,12 +15,13 @@ int main(void)
 		start++;
 	}
 
-	char start = 'a';
 
-	while (start <= 'f')
+	char start2 = 'a';
+
+	while (start2 <= 'f')
 	{
-		putchar(start + 48);
-		start++;
+		putchar(start2);
+		start2++;
 	}
 
 	putchar('\n');
