@@ -16,12 +16,12 @@ int main(void)
 	}
 
 
-	char start2 = 'a';
+	char startt = 'a';
 
-	while (start2 <= 'f')
+	while (startt <= 'f')
 	{
-		putchar(start2);
-		start2++;
+		putchar(startt);
+		startt++;
 	}
 
 	putchar('\n');
