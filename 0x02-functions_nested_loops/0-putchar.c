@@ -6,5 +6,14 @@
  */
 int main(void)
 {
-    _putchar("_putchat");
+    c[9] = "_putchat";
+    int i = 0;
+    while (i < )
+    {
+    	_putchar(c[i]);
+		i++;
+    }
+    _putchar('\n')
+    return (0);
 }
+
