@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: display _putchat text
@@ -17,4 +17,3 @@
  	_putchat('r');
  	_putchat('\n');
  }
- 
