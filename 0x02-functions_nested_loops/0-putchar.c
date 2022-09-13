@@ -7,13 +7,15 @@
 
  int main(void)
  {
- 	_putchat('_');
- 	_putchat('p');
- 	_putchat('u');
- 	_putchat('t');
- 	_putchat('c');
- 	_putchat('h');
- 	_putchat('a');
- 	_putchat('r');
- 	_putchat('\n');
+ 	_putchar('_');
+ 	_putchar('p');
+ 	_putchar('u');
+ 	_putchar('t');
+ 	_putchar('c');
+ 	_putchar('h');
+ 	_putchar('a');
+ 	_putchar('r');
+ 	_putchar('\n');
+
+ 	return (0);
  }
