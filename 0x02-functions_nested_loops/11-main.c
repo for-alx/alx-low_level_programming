@@ -1,17 +1,15 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-int main(int a = 0, b = 98, c = 111, d = 81, e = -10)
+int main(void)
 {
-    print_to_98(a);
-    print_to_98(b);
-    print_to_98(c);
-    print_to_98(d);
-    print_to_98(e);
+    print_to_98(0);
+    print_to_98(98);
+    print_to_98(111);
+    print_to_98(81);
+    print_to_98(-10);
     return (0);
 }
