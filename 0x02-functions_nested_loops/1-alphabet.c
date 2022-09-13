@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: display a-z in lowercase
- * Return: 1
+ * Return: 0
  */
 void print_alphabet(void)
 {
@@ -10,9 +10,8 @@ void print_alphabet(void)
 
 	while (start <= 'z')
 	{
-		__putchar('start');
-		
+		_putchar('start');
 		start++;
-	} 
-	return (0);
+	}
+	_putchar('\n')
 }
