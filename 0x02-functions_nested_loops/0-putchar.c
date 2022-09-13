@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 /**
  * main - Entry point
  * Description: display _putchat text
@@ -7,5 +6,5 @@
  */
 int main(void)
 {
-    printf("_putchat");
+    _putchar("_putchat");
 }
