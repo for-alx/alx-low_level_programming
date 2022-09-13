@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		start = 'a';
 
-		while (start <= 'a')
+		while (start <= 'z')
 		{
 			_putchar(start);
 			start++;
