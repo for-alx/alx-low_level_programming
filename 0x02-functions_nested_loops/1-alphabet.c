@@ -3,7 +3,8 @@
  * main - Entry point
  * Description: display a-z in lowercase
  * Return: 0
- */
+**/
+//print_alphabet
 void print_alphabet(void)
 {
 	char start = 'a';
