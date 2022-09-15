@@ -4,6 +4,7 @@
 *print_most_numbers - print 0 - 9 ecxept 2 and 4
 *Return: void(none)
 */
+
 void print_most_numbers(void)
 {
 	int i;
@@ -15,6 +16,5 @@ void print_most_numbers(void)
 			_putchar(i + '0');
 		}
 	}
-
 	_putchar('\n');
 }
