@@ -3,9 +3,8 @@
 * _strcat - concatenates two strings
 * @dest: pointer destination
 * @src: pointer source
-* Return: void
+* Return: dest
 */
-
 char *_strcat(char *dest, char *src)
 {
 	int j = -1, i;
@@ -16,6 +15,5 @@ char *_strcat(char *dest, char *src)
 		dest[i] = src[j];
 		i++;
 	} while (src[j] != '\0');
-
 	return (dest);
 }
