@@ -4,32 +4,32 @@
  * @n1: integer
  * @n2: integer
  * @r: buffer
- * r_index: size of r
+ * size_r: size of r
  * Return: char
  */
-char *add_strings(char *n1, char *n2, char *r, int r_index)
+char *add_strings(char *n1, char *n2, char *r, int size_r)
 {
 	int num, tens = 0;
 
-	for (; *n1 && *n2; n1--, n2--, r_index--)
+	for (; *n1 && *n2; n1--, n2--, size_r--)
 	{
 		num = (*n1 - '0') + (*n2 - '0');
 		num += tens;
-		*(r + r_index) = (num % 10) + '0';
+		*(r + size_r) = (num % 10) + '0';
 		tens = num / 10;
 	}
 
-	for (; *n1; n1--; r_index++)
+	for (; *n1; n1--; size_r++)
 	{
 		num = *(n1 - '0') + tens; 
-		*(r + r_index) = (num % 10) + '0';
+		*(r + size_r) = (num % 10) + '0';
 		tens = num / 10;
 	}
 
-	for (; *n2; n2--;  r_index--)
+	for (; *n2; n2--;  size_r--)
 	{
 		num = (*n2 - '0') + tens; 
-		*(r + r_index) = (num % 10) + '0';
+		*(r + size_r) = (num % 10) + '0';
 		tens = num / 10; 
 	}
 	
