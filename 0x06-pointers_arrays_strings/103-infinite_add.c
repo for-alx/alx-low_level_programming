@@ -7,7 +7,7 @@
  * size_r: size of r
  * Return: char
  */
-char *add_strings(char *n1, char *n2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int num, tens = 0;
 
