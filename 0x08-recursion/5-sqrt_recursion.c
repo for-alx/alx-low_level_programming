@@ -6,24 +6,23 @@
 */
 int _sqrt_recursion(int n)
 {
-return (square(n, 1));
+	if (n == 0 || n == 1)
+		return (n);
+	return (_sqrt(0, n));
 }
 
 /**
- * square - find square root
- * @n: int to find square root
- * @val: square root
- * Return: int
+ * _sqrt - returns the square root of a number
+ * @n: number
+ * @x: number
+ * Return: the square root of n
  */
 
-int square(int n, int val)
+int _sqrt(int n, int x)
 {
-
-if (val * val == n)
-	return (val);
-else if (val * val < n)
-	return  (square(n, val + 1));
-else
-	return (-1);
-
+	if (n > x / 2)
+		return (-1);
+	else if (n * n == x)
+		return (n);
+	return (_sqrt(n + 1, x));
 }
