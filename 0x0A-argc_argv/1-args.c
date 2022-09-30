@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
 	if (argc > 1)
 	{
-		(void)argc;
+		(void)argv;
 		printf("%d\n", argc - 1);
 	}
 	else
@@ -17,5 +17,5 @@ int main(int argc, char *argv[])
 		printf("%d\n", 0);
 	}
 
-	return(0);
+	return (0);
 }
