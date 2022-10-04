@@ -5,13 +5,12 @@
 *@height:height of the array
 *Return:returns void
 */
+
 void free_grid(int **grid, int height)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < height; i++)
+	for (; i < height; i++)
 		free(grid[i]);
-
 	free(grid);
 }
-
