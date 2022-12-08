@@ -4,6 +4,7 @@
 /**
  * print_dlistint - print elements of doubly linked list
  * @h: linked list
+ *
  * Return: number of nodes
  */
 
