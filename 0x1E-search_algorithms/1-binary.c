@@ -47,7 +47,7 @@ void print_array(int *array, size_t i, size_t R)
 	while (i < R)
 	{
 		if (i + 1 == R)
-			printf("%d ", array[i]);
+			printf("%d", array[i]);
 		else
 			printf("%d, ", array[i]);
 		i++;
