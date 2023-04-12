@@ -39,9 +39,7 @@ int interpolation_search(int *array, size_t size, int value)
 		}
 	}
 	if (value == array[low])
-	{
 		return ((int)low);
-	}
 	else
 		return (-1);
 }
